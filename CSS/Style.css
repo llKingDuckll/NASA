@@ -1,0 +1,259 @@
+:root {
+
+}
+img {
+    width: 50%;
+    height: 50%;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+a {
+    text-decoration: none;
+}
+h1,
+h2,
+h3{
+    margin: 0 0;
+}
+p {
+    margin: 0 0;
+}
+/* __________________________Navegacion______________________________ */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.479);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top:  2px solid #00a6c0;
+}
+.card-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tamaño_1 {
+    width: 21%;
+}
+@media (min-width: 768px) {
+    .tamaño {
+     width: 32%;
+    }
+}
+.logo-nasa {
+    width: 90%;
+    height: 3vh;
+    margin: 5px 0;
+}
+.logo-nasa:hover {
+    width: 92%;
+    height: 3.4vh;
+    cursor: pointer;
+}
+@media (min-width: 768px) {
+    .logo-nasa {
+    width: 52%;
+    }
+    .logo-nasa:hover {
+    width: 55%;
+    }
+}
+@media (min-width: 1440px) {
+    .logo-nasa {
+        width: 25%;
+    }
+    .logo-nasa:hover {
+    width: 29%;
+    }
+}
+.link-nav {
+    font-size: 9px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: linear-gradient(174deg,#222831,#283b48,#00a6c0,#fff);
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+}
+.link-nav:hover{
+    font-size: 12px;
+}
+@media (min-width: 768px) {
+    .link-nav {
+        font-size: 11px;
+    }
+    .link-nav:hover {
+        font-size: 15px;
+    }
+}
+@media (min-width: 1440px) {
+    .link-nav {
+        font-size: 15px;
+    }
+    .link-nav:hover {
+        font-size: 20px;
+    }
+}
+/* ____________________________Panel_1________________________________ */
+
+.panel_1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+}
+@media (min-width: 768px) {
+    .panel_1 {
+        height: 44vh;
+    }
+}
+@media (min-width: 1440px) {
+    .panel_1 {
+        height: 50vh;
+    }
+}
+.tamaño_2 {
+ width: 47%;
+}
+@media (min-width: 768px) {
+    .tamaño_2 {
+        width: 54%;
+    }
+}
+@media (min-width: 1440px) {
+    .tamaño_2 {
+        width: 52%;
+    }
+}
+.astronauta {
+    width: 96%;
+    height: 26vh;
+}
+@media (min-width: 768px) {
+    .astronauta {
+        width: 67%;
+        height: 32vh;
+        margin-left: 5rem;
+    }
+}
+@media (min-width: 1440px) {
+    .astronauta {
+        width: 45%;
+        height: 39vh;
+        margin-left: 20rem;
+    }
+}
+/* __________________________Text-Parrafo__________________________ */
+
+.panel-text_1 {
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+@media (min-width: 768px) {
+    .panel-text_1 {
+        width: 40% ;
+    }
+}
+@media (min-width: 1440px) {
+    .panel-text_1 {
+        width: 35%;
+    }
+}
+.tex-nasa {
+    font-size: 10px;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+}
+@media (min-width: 768px) {
+    .tex-nasa {
+        font-size: 20px;
+    }
+}
+@media (min-width: 1440px) {
+    .tex-nasa {
+        font-size: 25px;
+    }
+}
+.tex-Artemis {
+    font-size: 20px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+}
+@media (min-width: 768px) {
+   .tex-Artemis {
+    font-size: 30px;
+   }
+}
+@media (min-width: 1440px) {
+    .tex-Artemis {
+        font-size: 46px;
+        margin-bottom: 1rem;
+    }
+}
+.parrafo-artemis {
+    font-size: 10px;
+}
+@media (min-width: 768px) {
+    .parrafo-artemis {
+        font-size: 12px;
+    }
+}
+@media (min-width: 1440px) {
+    .parrafo-artemis {
+        font-size: 16px;
+    }
+}
+/* _____________________Feature____________________________ */
+
+.grid-features {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 172px);
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+@media (min-width: 768px) {
+    .grid-features {
+    grid-template-columns: repeat(3, 228px);
+    gap: 2rem;
+    }
+}
+@media (min-width: 1440px) {
+    .grid-features {
+    grid-template-columns: repeat(3, 355px);
+    gap: 4rem;
+    height: 20vh;
+    }
+}
+.Tamaño_planeta {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Planeta {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 15vh;
+}
+@media (min-width: 768px) {
+    .Planeta {
+    width: 77%;
+    height: 18vh;
+    }
+}
+@media (min-width: 1440px) {
+    .Planeta {
+        width: 75%;
+        height: 22vh;
+    }
+}
