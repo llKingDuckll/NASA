@@ -22,6 +22,11 @@ h3{
 p {
     margin: 0 0;
 }
+@media (min-width: 1440px) {
+    header {
+        height: 136vh;
+    }
+}
 /* __________________________Navegacion______________________________ */
 
 .navbar {
@@ -220,6 +225,7 @@ p {
     justify-content: center;
     gap: 1rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 @media (min-width: 768px) {
     .grid-features {
@@ -254,6 +260,109 @@ p {
 @media (min-width: 1440px) {
     .Planeta {
         width: 75%;
-        height: 22vh;
+        height: 24vh;
+    }
+}
+/* __________________________Nave_________________________________________ */
+.panel_2 {
+    display: flex;
+    gap: 1rem;
+}
+.nave-img {
+    display: flex;
+    align-items: center;
+    width: 51%;
+}
+.nave_1 {
+    width: 41%;
+    margin-left: 14px ;
+}
+.nave-1 {
+    width: 193%;
+    height: 23vh;
+}
+@media (min-width: 768px) {
+    .nave_1 {
+    width: 41%;
+    margin-left: 14px ;
+}
+    .nave-1 {
+        width: 192%;
+        height: 35vh;
+        }
+}
+@media (min-width: 1440px) {
+        .nave-1 {
+        width: 149%;
+        height: 69vh;
+        margin-left: 10rem;
+    }
+}
+.nave_2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 79%;
+}
+.nave-2 {
+    margin-top: 85px;
+    width: 100%;
+    height: 20vh;
+}
+@media (min-width: 768px) {
+    .nave_2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 79%;
+}
+.nave-2 {
+    margin-top: 124px;
+    width: 100%;
+    height: 29vh;
+    }
+}
+@media (min-width: 1440px) {
+        .nave-2 {
+        margin-top: 179px;
+        width: 83%;
+        height: 58vh;
+    }
+}
+.nave-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 52%;
+    margin-right: 10px;
+}
+@media (min-width: 768px) {
+    .nave-text {
+        width: 40%;
+    }
+}
+@media (min-width: 1440px) {
+    .nave-text {
+        width: 50%;
+    }
+}
+.lanzamiento-text {
+    font-size: 18px;
+}
+.lanzamiento-parrafo {
+    font-size: 10px;
+}
+@media (min-width: 768px) {
+        .lanzamiento-text {
+        font-size: 26px;
+    }
+        .lanzamiento-parrafo {
+        font-size: 15px;
+    }
+}
+@media (min-width: 1440px) {
+        .lanzamiento-text {
+        font-size: 36px;
+    }
+        .lanzamiento-parrafo {
+        font-size: 21px;
     }
 }
