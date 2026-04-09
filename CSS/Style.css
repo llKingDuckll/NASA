@@ -22,11 +22,7 @@ h3{
 p {
     margin: 0 0;
 }
-@media (min-width: 1440px) {
-    header {
-        height: 136vh;
-    }
-}
+
 /* __________________________Navegacion______________________________ */
 
 .navbar {
@@ -123,9 +119,9 @@ p {
         height: 50vh;
     }
 }
-.tamaño_2 {
- width: 47%;
-}
+    .tamaño_2 {
+    width: 47%;
+    }
 @media (min-width: 768px) {
     .tamaño_2 {
         width: 54%;
@@ -237,7 +233,6 @@ p {
     .grid-features {
     grid-template-columns: repeat(3, 355px);
     gap: 4rem;
-    height: 20vh;
     }
 }
 .Tamaño_planeta {
@@ -264,105 +259,144 @@ p {
     }
 }
 /* __________________________Nave_________________________________________ */
+.bg-panel_2 {
+    background-image: url(/Img/Panel_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    border-radius: 1rem;
+}
 .panel_2 {
     display: flex;
-    gap: 1rem;
-}
-.nave-img {
-    display: flex;
     align-items: center;
-    width: 51%;
+    position: relative;
+    margin-top: 2rem;
+    height: 100%;
 }
-.nave_1 {
-    width: 41%;
-    margin-left: 14px ;
+.fondo {
+    position: absolute;
+    width: 25%;
+    height: 25vh;
+    margin-left: 78px;
 }
 .nave-1 {
-    width: 193%;
-    height: 23vh;
-}
-@media (min-width: 768px) {
-    .nave_1 {
-    width: 41%;
-    margin-left: 14px ;
-}
-    .nave-1 {
-        width: 192%;
-        height: 35vh;
-        }
-}
-@media (min-width: 1440px) {
-        .nave-1 {
-        width: 149%;
-        height: 69vh;
-        margin-left: 10rem;
-    }
-}
-.nave_2 {
-    display: flex;
-    justify-content: flex-end;
-    width: 79%;
+    position: absolute;
+    width: 25%;
+    height: 24vh;
+    margin-left: 1rem;
+    margin-top: -6rem;
 }
 .nave-2 {
-    margin-top: 85px;
-    width: 100%;
-    height: 20vh;
+    position: absolute;
+    width: 24%;
+    height: 24vh;
+    margin-left: 3rem;
+    margin-top: 7rem;
 }
-@media (min-width: 768px) {
-    .nave_2 {
-    display: flex;
-    justify-content: flex-end;
-    width: 79%;
-}
-.nave-2 {
-    margin-top: 124px;
-    width: 100%;
-    height: 29vh;
-    }
-}
-@media (min-width: 1440px) {
-        .nave-2 {
-        margin-top: 179px;
-        width: 83%;
-        height: 58vh;
-    }
+.nasa-logo {
+    position: absolute;
+    width: 23%;
+    height: 9vh;
+    margin-top: -17rem;
+    margin-left: 18rem;
 }
 .nave-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 52%;
-    margin-right: 10px;
-}
-@media (min-width: 768px) {
-    .nave-text {
-        width: 40%;
-    }
-}
-@media (min-width: 1440px) {
-    .nave-text {
-        width: 50%;
-    }
+    position: absolute;
+    width: 49%;
+    margin-left: 12rem;
+    margin-top: 2rem;
 }
 .lanzamiento-text {
-    font-size: 18px;
+    background: linear-gradient( 300deg, #0d2944, #1f749e, #0b7992, #b1b9c5 );
+    font-size: 14px;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .lanzamiento-parrafo {
-    font-size: 10px;
+    color: white;
+    font-size: 8px;
 }
+
 @media (min-width: 768px) {
-        .lanzamiento-text {
-        font-size: 26px;
+    .bg-panel_2 {
+    width: 100%;
+    height: 55vh;
     }
-        .lanzamiento-parrafo {
-        font-size: 15px;
+    .fondo {
+    width: 30%;
+    height: 36vh;
+    margin-left: 179px;
+    }
+    .nave-1 {
+    width: 30%;
+    height: 36vh;
+    margin-left: 1rem;
+    margin-top: -7rem;
+    }
+    .nave-2 {
+    width: 33%;
+    height: 36vh;
+    margin-left: 5rem;
+    margin-top: 7rem;
+    }
+    .nasa-logo {
+    width: 22%;
+    height: 19vh;
+    margin-top: -20rem;
+    margin-left: 35rem;
+    }
+    .nave-text {
+    width: 42%;
+    margin-left: 26rem;
+    margin-top: 2rem;
+    }
+    .lanzamiento-text {
+        font-size: 24px;
+    }
+    .lanzamiento-parrafo {
+        font-size: 12px;
     }
 }
 @media (min-width: 1440px) {
-        .lanzamiento-text {
-        font-size: 36px;
+    .bg-panel_2 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 5rem;
     }
-        .lanzamiento-parrafo {
-        font-size: 21px;
+    .fondo {
+    width: 31%;
+    height: 56vh;
+    margin-left: 284px;
+    }
+    .nave-1 {
+    width: 23%;
+    height: 66vh;
+    margin-left: 6rem;
+    }
+    .nave-2 {
+    width: 24%;
+    height: 56vh;
+    margin-left: 17rem;
+    margin-top: 19rem;
+    }
+    .nasa-logo {
+    width: 11%;
+    height: 23vh;
+    margin-bottom: 19rem;
+    margin-left: 96rem;
+    }
+    .nave-text {
+    width: 37%;
+    margin-left: 64rem;
+    margin-top: 2rem;
+    }
+    .lanzamiento-text {
+        font-size: 34px;
+    }
+    .lanzamiento-parrafo {
+        font-size: 20px;
     }
 }
